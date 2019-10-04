@@ -14,8 +14,9 @@ namespace SmukToolsApp.Data
             {
                 var Services = new Service[]
                 {
-                    new Service{Name="KBL"},
-                    new Service{Name="GBL",}
+                    new Service{Name="Service 1"},
+                    new Service{Name="Service 2"},
+                    new Service{Name="Service 3"}
                 };
                 foreach (var item in Services)
                 {
