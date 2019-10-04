@@ -31,7 +31,7 @@ function ShowSecondModel(s) {
     $('#exampleModalLabel').append(`When do you want to apply for ${s}.  متى ترغب في رفع الطلب ؟`);
     let Content = ``;
  
-    Content = Content + `<button type="button" class="btn col-4 btn-outline-primary">During One Week  خلال اسبوع</button><button type="button" class="btn col-4 btn-outline-secondary">During 1 Month خلال شهر </button><button type="button" class="btn btn-outline-success col-4">General Inquiry استفسار عام</button>`;
+    Content = Content + `<button type="button" class="btn col-12 btn-outline-primary m-1">During One Week  خلال اسبوع</button><button type="button" class="btn m-1 col-12 btn-outline-secondary">During 1 Month خلال شهر </button><button type="button" class="btn btn-outline-success m-1 col-12">General Inquiry استفسار عام</button>`;
     
     $('#modelBody').empty();
     $('#modelBody').append(Content);
