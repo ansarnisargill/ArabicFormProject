@@ -13,7 +13,7 @@ function GetData(url) {
 
 function ShowResourceModal(data) {
     $('#exampleModalLabel').empty();
-    $('#exampleModalLabel').append(`Select Interested Service.  اختر عرض من العروض التالية`);
+    $('#exampleModalLabel').append(`Select Interested Service. `);
     let Content = ``;
     for (const service of data) {
         Content = Content + `<button type="button" onclick="ShowSecondModel('${service.name}')"  class="btn m-2 btn-outline-primary">${service.name}</button>`;
@@ -28,10 +28,10 @@ function ShowFirstModel() {
 }
 function ShowSecondModel(s) {
     $('#exampleModalLabel').empty();
-    $('#exampleModalLabel').append(`When do you want to apply for ${s}.  متى ترغب في رفع الطلب ؟`);
+    $('#exampleModalLabel').append(`When do you want to apply for ${s}. `);
     let Content = ``;
  
-    Content = Content + `<button type="button" class="btn col-12 btn-outline-primary m-1">During One Week  خلال اسبوع</button><button type="button" class="btn m-1 col-12 btn-outline-secondary">During 1 Month خلال شهر </button><button type="button" class="btn btn-outline-success m-1 col-12">General Inquiry استفسار عام</button>`;
+    Content = Content + `<button type="button" class="btn col-12 btn-outline-primary m-1">During One Week </button><button type="button" class="btn m-1 col-12 btn-outline-secondary">During 1 Month </button><button type="button" class="btn btn-outline-success m-1 col-12">General Inquiry </button>`;
     
     $('#modelBody').empty();
     $('#modelBody').append(Content);
