@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\it\\OneDrive\\ScrappingProjects\\ArabicProject\\ArabicProject.csproj": {}
+    "C:\\Users\\it\\Desktop\\ArabicFormProject\\ArabicProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\it\\OneDrive\\ScrappingProjects\\ArabicProject\\ArabicProject.csproj": {
+    "C:\\Users\\it\\Desktop\\ArabicFormProject\\ArabicProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\it\\OneDrive\\ScrappingProjects\\ArabicProject\\ArabicProject.csproj",
+        "projectUniqueName": "C:\\Users\\it\\Desktop\\ArabicFormProject\\ArabicProject.csproj",
         "projectName": "ArabicProject",
-        "projectPath": "C:\\Users\\it\\OneDrive\\ScrappingProjects\\ArabicProject\\ArabicProject.csproj",
+        "projectPath": "C:\\Users\\it\\Desktop\\ArabicFormProject\\ArabicProject.csproj",
         "packagesPath": "C:\\Users\\it\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\it\\OneDrive\\ScrappingProjects\\ArabicProject\\obj\\",
+        "outputPath": "C:\\Users\\it\\Desktop\\ArabicFormProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
